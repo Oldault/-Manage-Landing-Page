@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="index.js">
 
 </head>
 <body>
@@ -51,9 +52,7 @@
               <p><a href="#">Get Started</a></p>
             </div>
           </div>
-          <div class="analytics">
-            <img src = "./images/illustration-intro.svg" alt="Success analytics"/>
-          </div>
+          <img src = "./images/illustration-intro.svg" alt="Success analytics"/>
         </div>
       </div>
       <div class="middle-part">
@@ -131,80 +130,57 @@
       <h2>
         What they've said
       </h2>
-      <div class="all-comments">
-      <div class="feed-comment-1 person">
-        <div class="avatar">
-          <img src="./images/avatar-ali.png" alt="Satisfied customer profile picture">
-        </div>
-        <div class="customer-name">
-          <h4>
-            Ali Bravo
-          </h4>
-        </div>
-        <div class="customer-comment">
-          <p>
-            “We have been able to cancel so many other subscriptions since using 
-            Manage. There is no more cross-channel confusion and everyone is much 
-            more focused.”
-          </p>
-        </div>
-      </div>
-
-      <div class="feed-comment-2 person">
-        <div class="avatar">
-          <img src="./images/avatar-anisha.png" alt="Satisfied customer profile picture">
-        </div>
-        <div class="customer-name">
-          <h4>
-            Anisha Li
-          </h4>
-        </div>
-        <div class="customer-comment">
-          <p>
-            “Manage has supercharged our team’s workflow. The ability to maintain 
-            visibility on larger milestones at all times keeps everyone motivated.”
-          </p>
-        </div>
-      </div>
-
-      <div class="feed-comment-3 person">
-        <div class="avatar">
-          <img src="./images/avatar-shanai.png" alt="Satisfied customer profile picture">
-        </div>
-        <div class="customer-name">
-          <h4>
-            Shanai Gough
-          </h4>
-        </div>
-        <div class="customer-comment">
-          <p>
-            “Their software allows us to track, manage and collaborate on our projects 
-            from anywhere. It keeps the whole team in-sync without being intrusive.”
-           </p>
-        </div>
-      </div>
-
-      <div class="feed-comment-4 person">
-        <div class="avatar">
-          <img src="./images/avatar-richard.png" alt="Satisfied customer profile picture">
-        </div>
-        <div class="customer-name">
-          <h4>
-            Richard Watts
-          </h4>
-        </div>
-        <div class="customer-comment">
-          <p>
-            “Manage allows us to provide structure and process. It keeps us organized 
-  and focused. I can’t stop recommending them to everyone I talk to!”
-           </p>
-        </div>
-      </div>
-    </div>
-    </div>
+      <ul class="gallery">
+        <li>
+            <div class="block block-1">
+                <img src="./images/avatar-ali.png" alt="Satisfied customer profile picture 1">
+                <div class="feedback-text">
+                    <h4>Ali Bravo</h4>
+                    <p>“We have been able to cancel so many other subscriptions since using 
+                        Manage. There is no more cross-channel confusion and everyone is much 
+                        more focused.”</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block block-2">
+                <img src="./images/avatar-anisha.png" alt="Satisfied customer profile picture 2">
+                <div class="feedback-text">
+                    <h4>Anisha Li</h4>
+                    <p>“Manage has supercharged our team’s workflow. The ability to maintain 
+                        visibility on larger milestones at all times keeps everyone motivated.”</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block block-3">
+                <img src="./images/avatar-shanai.png" alt="Satisfied customer profile picture 3">
+                <div class="feedback-text">
+                    <h4>Shanai Gough</h4>
+                    <p>“Their software allows us to track, manage and collaborate on our projects 
+                        from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block block-4">
+                <img src="./images/avatar-richard.png" alt="Satisfied customer profile picture 4">
+                <div class="feedback-text">
+                    <h4>Richard Watts</h4>
+                    <p>“Manage allows us to provide structure and process. It keeps us organized 
+                        and focused. I can’t stop recommending them to everyone I talk to!”</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="feedback-lower">
+      <img src="./images/arror-left.png" alt="arrow-left">
       <div class="button button-comment">
         <p><a href="#">Get Started</a></p>
       </div>
+      <img src="./images/arrow-right.png" alt="arrow-right">
+    </div>
+  </div>
 
     <div class="footer1 footer">
       <div class="encouragement">
@@ -232,23 +208,25 @@
           </ul>
         </div>
       </div>
-      <div class="middle-side middle-side-1">
-        <div class="more">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">About Us</a></li>
-          </ul>
+      <div class="middle-side-master">
+        <div class="middle-side middle-side-1">
+          <div class="more">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="middle-side middle-side-2">
-        <div class="more">
-          <ul>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Community</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-          </ul>
+        <div class="middle-side middle-side-2">
+          <div class="more">
+            <ul>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="right-side">
@@ -262,6 +240,9 @@
         <div class="copyright">
           <p>Copyright 2022. All Rights Reserved</p>
         </div>
+      </div>
+      <div class="copyright2">
+        <p>Copyright 2022. All Rights Reserved</p>
       </div>
     </div>
   </main>
